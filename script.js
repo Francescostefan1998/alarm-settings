@@ -58,6 +58,7 @@ const startCountDown0 = function (event) {
   console.log(event.currentTarget);
   id0 = event.currentTarget.getAttribute("id");
   console.log(id0);
+  document.querySelector("#circul1").classList.add("rotate");
 
   initialvalue0 = event.currentTarget.innerText;
   ttime = event.currentTarget.innerText;
@@ -89,6 +90,7 @@ const startCountDown1 = function (event) {
   console.log(event.currentTarget);
   id1 = event.currentTarget.getAttribute("id");
   console.log(id1);
+  document.querySelector("#circul2").classList.add("rotate");
 
   initialvalue1 = event.currentTarget.innerText;
   ttime = event.currentTarget.innerText;
@@ -120,6 +122,7 @@ const startCountDown2 = function (event) {
   console.log(event.currentTarget);
   id2 = event.currentTarget.getAttribute("id");
   console.log(id2);
+  document.querySelector("#circul3").classList.add("rotate");
 
   initialvalue2 = event.currentTarget.innerText;
   ttime = event.currentTarget.innerText;
@@ -151,6 +154,7 @@ const startCountDown3 = function (event) {
   console.log(event.currentTarget);
   id3 = event.currentTarget.getAttribute("id");
   console.log(id3);
+  document.querySelector("#circul4").classList.add("rotate");
 
   initialvalue3 = event.currentTarget.innerText;
   ttime = event.currentTarget.innerText;
@@ -182,6 +186,7 @@ const startCountDown4 = function (event) {
   console.log(event.currentTarget);
   id4 = event.currentTarget.getAttribute("id");
   console.log(id4);
+  document.querySelector("#circul5").classList.add("rotate");
 
   initialvalue4 = event.currentTarget.innerText;
   ttime = event.currentTarget.innerText;
@@ -213,6 +218,7 @@ const startCountDown5 = function (event) {
   console.log(event.currentTarget);
   id5 = event.currentTarget.getAttribute("id");
   console.log(id5);
+  document.querySelector("#circul6").classList.add("rotate");
 
   initialvalue5 = event.currentTarget.innerText;
   ttime = event.currentTarget.innerText;
@@ -245,6 +251,7 @@ const startCountDown6 = function (event) {
   console.log(event.currentTarget);
   id6 = event.currentTarget.getAttribute("id");
   console.log(id6);
+  document.querySelector("#circul7").classList.add("rotate");
 
   initialvalue6 = event.currentTarget.innerText;
   ttime = event.currentTarget.innerText;
@@ -277,6 +284,7 @@ const startCountDown7 = function (event) {
   console.log(event.currentTarget);
   id7 = event.currentTarget.getAttribute("id");
   console.log(id7);
+  document.querySelector("#circul8").classList.add("rotate");
 
   initialvalue7 = event.currentTarget.innerText;
   ttime = event.currentTarget.innerText;
@@ -308,6 +316,7 @@ const startCountDown8 = function (event) {
   console.log(event.currentTarget);
   id8 = event.currentTarget.getAttribute("id");
   console.log(id);
+  document.querySelector("#circul9").classList.add("rotate");
 
   initialvalue8 = event.currentTarget.innerText;
   ttime = event.currentTarget.innerText;
@@ -340,6 +349,7 @@ const startCountDown9 = function (event) {
   console.log(event.currentTarget);
   id9 = event.currentTarget.getAttribute("id");
   console.log(id9);
+  document.querySelector("#circul10").classList.add("rotate");
 
   initialvalue9 = event.currentTarget.innerText;
   ttime = event.currentTarget.innerText;

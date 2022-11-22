@@ -84,3 +84,9 @@ border-radius: 5vh;
     border-bottom: 50px solid rgb(128, 0, 111)!important;
     transform: rotate(90deg);
 }
+
+.rotate{
+    transform: rotate(-270deg);
+    -webkit-transition: all 60s cubic-bezier(1, 1, 0, 0);
+transition: all 60s cubic-bezier(1, 1, 0, 0);
+}
